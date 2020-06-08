@@ -3,7 +3,7 @@
 
 ## Старт программы
 - Выполните
-- `python manage.py migrate`
+- `python manage.py migrate` / `python manage.py migrate --run-syncdb`
 -  Вручную создать суперпользователя, выполнив команду
 - `python manage.py createsuperuser`
 -  Запустить систему
