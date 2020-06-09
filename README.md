@@ -2,6 +2,9 @@
 Тестовое задание
 
 ## Старт программы
+- Необходима версия python3.6 и выше
+- Установка пакетов
+- pip install -r requirements.txt
 - Выполните
 - `python manage.py migrate` / `python manage.py migrate --run-syncdb`
 -  Вручную создать суперпользователя, выполнив команду
