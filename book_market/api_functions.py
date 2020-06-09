@@ -55,7 +55,7 @@ def get_admins_email():
 def send_email(username):
     """Отправка почты администраторам"""
     emails = get_admins_email()
-    message = f'Пользователь {username} заполнил заявку'
+    message = 'Пользователь ' + str(username) + 'заполнил заявку'
     send_mail(
         'Заполнена заявка',
         message,
